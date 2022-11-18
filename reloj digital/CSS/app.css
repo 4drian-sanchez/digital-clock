@@ -1,0 +1,58 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    font-family: 'Sono', sans-serif;
+}
+
+.watch__container {
+    width: 90%;
+    max-width: 80rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.watch {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    background-color: rgba(51, 51, 51, 0.644);
+    padding: 2rem 4rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.352);
+}
+
+.hora {
+    font-size: 4rem;
+    line-height: 1;
+    color: #fff;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.352);
+    letter-spacing: 1px;
+}
+
+.fecha {
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1rem;
+    margin-bottom: 2rem;
+}
